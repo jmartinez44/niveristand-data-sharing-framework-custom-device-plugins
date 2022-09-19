@@ -106,7 +106,12 @@ AddOutputFilter chunkFilter
 		<Item Name="RDMA.lvlib" Type="Library" URL="../RDMA.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="RDMA Accept.vi" Type="VI" URL="/&lt;vilib&gt;/rdma/rdma.llb/RDMA Accept.vi"/>
 				<Item Name="RDMA Acquire Received Buffer DBL.vi" Type="VI" URL="/&lt;vilib&gt;/rdma/rdma.llb/RDMA Acquire Received Buffer DBL.vi"/>
 				<Item Name="RDMA Acquire Received Buffer I8.vi" Type="VI" URL="/&lt;vilib&gt;/rdma/rdma.llb/RDMA Acquire Received Buffer I8.vi"/>
@@ -405,9 +410,16 @@ AddOutputFilter chunkFilter
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="../../../DSF Core.lvlibp/1abvi3w/vi.lib/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
 			</Item>
+			<Item Name="format_data_for_console.vi" Type="VI" URL="../../../../../srd-adg-hil/src/lruts/Tools/labview_2020/rt_remote_console/debug_vis/subvi/format_data_for_console.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="nirdma.dll" Type="Document" URL="nirdma.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Temporal Marker.ctl" Type="VI" URL="../../../../../srd-adg-hil/src/lruts/Tools/labview_2020/rt_remote_console/Controls/Temporal Marker.ctl"/>
+			<Item Name="write_data_to_console.vi" Type="VI" URL="../../../../../srd-adg-hil/src/lruts/Tools/labview_2020/rt_remote_console/debug_vis/write_data_to_console.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="RDMA" Type="Packed Library">
